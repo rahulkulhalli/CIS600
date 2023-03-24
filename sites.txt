@@ -8,3 +8,5 @@ Weather:
 
 Important links:
 - https://www.bts.gov/topics/airlines-and-airports/understanding-reporting-causes-flight-delays-and-cancellations#q7
+- https://openweathermap.org/api
+
