@@ -1,0 +1,7 @@
+Flight data:
+https://flightaware.com/ -> paid APIs
+BTS
+
+
+Weather:
+https://www.weather.gov/documentation/services-web-api
