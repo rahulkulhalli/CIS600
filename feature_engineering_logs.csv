@@ -1,2 +1,6 @@
-Date,Discussion context,Updated sites.txt?,Created new API keys?
-03/24,"Initial discussion about features, data sources, and modeling ",Yes,Yes
+Date,Discussion context,Takeaways,Updated sites.txt?,Created new API keys?
+03/24/2023,"Initial discussion about features, data sources, and modeling","1. Ayush will handle weather API data
+2. We would like to use an autoregressive model with a sliding window
+3. Airport info is a crucial info: stuff like num_airports, etc.
+4. Aircraft filter params:  Icao, Registration, flight, ac_type
+5. Look-back period set to 5 years (tentatively)",Yes,Yes
