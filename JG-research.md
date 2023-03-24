@@ -33,7 +33,32 @@ This project aims to predict if a flight's arrival time into Syracuse (SYR) woul
 
 - Use the trained model to make predictions on the provided CSV file.
 
-## Features to Consider for Accurate Predictions
+## Weather Features to Consider for Accurate Predictions
+
+The importance of weather features in predictions depends on the specific problem or application you are addressing. However, some commonly important weather features include:
+
+1. **Temperature**: Ambient temperature can impact energy consumption, agricultural productivity, human comfort, and various other aspects of daily life.
+
+2. **Precipitation**: Rainfall, snowfall, and other forms of precipitation affect water resources, agriculture, transportation, and infrastructure.
+
+3. **Humidity**: Relative humidity can impact human comfort, air quality, and the efficiency of certain energy systems, such as cooling equipment.
+
+4. **Wind speed and direction**: Wind can affect renewable energy production (wind turbines), aviation, marine transportation, and the dispersion of air pollutants.
+
+5. **Solar radiation**: Solar irradiance is crucial for solar energy production and can also impact temperature, evaporation rates, and plant growth.
+
+6. **Cloud cover**: The amount of cloud cover can influence solar radiation, temperature, and visibility, which can impact energy production, aviation, and other sectors.
+
+7. **Atmospheric pressure**: Changes in atmospheric pressure can impact weather systems and are often used in weather forecasting models.
+
+8. **Visibility**: Reduced visibility due to fog, haze, or other factors can have significant impacts on transportation, particularly aviation and marine navigation.
+
+9. **Extreme events**: Severe weather events such as storms, hurricanes, tornadoes, and heatwaves can have a wide range of impacts on human life, infrastructure, and economic activity.
+
+The specific combination of weather features that are most important for predictions will depend on the context and the goals of the analysis. It is essential to understand the relationships between different weather features and the variables you are trying to predict to build accurate and reliable models.
+
+
+## Flight Features to Consider for Accurate Predictions
 
 To make accurate predictions for flight delays, you can consider the following features:
 
