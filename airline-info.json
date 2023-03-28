@@ -1,0 +1,12 @@
+{
+  "info": [{
+    "from": "EWR",
+    "to": "SYR",
+    "flight_names": ["UA 4191", "UA 3564", "UA 776"]
+  }, {
+    "from": "SYR",
+    "to": "EWR",
+    "flight_names": ["UA 2128", "UA 4426", "UA 3672"]
+  }
+  ]
+}
