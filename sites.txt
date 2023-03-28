@@ -2,6 +2,8 @@ Flight data:
 - https://flightaware.com/ -> paid APIs
 - BTS -> TBD
 - https://ourairports.com/ -> No flight info
+- https://www.flightstats.com/v2
+- https://opensky-network.org/data/impala
 
 Weather:
 - https://www.weather.gov/documentation/services-web-api
