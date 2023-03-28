@@ -33,29 +33,29 @@ This project aims to predict if a flight's arrival time into Syracuse (SYR) woul
 
 - Use the trained model to make predictions on the provided CSV file.
 
-## Weather Features to Consider for Accurate Predictions
+## Important Weather Features for Predictions
 
-The importance of weather features in predictions depends on the specific problem or application you are addressing. However, some commonly important weather features include:
+Weather plays a significant role in flight delays and cancellations. Some important weather features to consider for your predictions include:
 
-1. **Temperature**: Ambient temperature can impact energy consumption, agricultural productivity, human comfort, and various other aspects of daily life.
+1. **Temperature**: Extreme temperatures, both high and low, can impact aircraft performance and lead to delays.
 
-2. **Precipitation**: Rainfall, snowfall, and other forms of precipitation affect water resources, agriculture, transportation, and infrastructure.
+2. **Precipitation**: Rain, snow, sleet, and other forms of precipitation can reduce visibility, disrupt airport operations, and affect aircraft performance, resulting in delays.
 
-3. **Humidity**: Relative humidity can impact human comfort, air quality, and the efficiency of certain energy systems, such as cooling equipment.
+3. **Wind speed and direction**: Strong winds, especially crosswinds, can make takeoffs and landings more difficult, leading to delays or cancellations. Wind direction may also affect the choice of runways in use at an airport.
 
-4. **Wind speed and direction**: Wind can affect renewable energy production (wind turbines), aviation, marine transportation, and the dispersion of air pollutants.
+4. **Visibility**: Poor visibility due to fog, mist, or heavy precipitation can significantly impact flight operations, causing delays or cancellations.
 
-5. **Solar radiation**: Solar irradiance is crucial for solar energy production and can also impact temperature, evaporation rates, and plant growth.
+5. **Cloud cover**: Low cloud ceilings can affect flight operations, especially at airports with limited instrument landing systems or in situations where pilots rely on visual approaches.
 
-6. **Cloud cover**: The amount of cloud cover can influence solar radiation, temperature, and visibility, which can impact energy production, aviation, and other sectors.
+6. **Thunderstorms and lightning**: Thunderstorms and lightning pose a significant risk to flights, often causing delays, diversions, or cancellations due to safety concerns.
 
-7. **Atmospheric pressure**: Changes in atmospheric pressure can impact weather systems and are often used in weather forecasting models.
+7. **Turbulence**: Turbulence, which can be caused by various weather phenomena, can lead to delays as flights may need to take alternative routes or adjust their altitudes to avoid turbulent areas.
 
-8. **Visibility**: Reduced visibility due to fog, haze, or other factors can have significant impacts on transportation, particularly aviation and marine navigation.
+8. **Icing conditions**: Icing on aircraft wings, engines, or other surfaces can impact performance and pose a safety risk, leading to delays or cancellations.
 
-9. **Extreme events**: Severe weather events such as storms, hurricanes, tornadoes, and heatwaves can have a wide range of impacts on human life, infrastructure, and economic activity.
+9. **Extreme weather events**: Hurricanes, typhoons, blizzards, and other extreme weather events can cause widespread disruptions to air travel, resulting in numerous delays and cancellations.
 
-The specific combination of weather features that are most important for predictions will depend on the context and the goals of the analysis. It is essential to understand the relationships between different weather features and the variables you are trying to predict to build accurate and reliable models.
+It's important to note that weather conditions at both the origin and destination airports can impact flight delays. Additionally, the severity and combination of various weather features can also play a role. When incorporating weather data into your analysis, you may need to preprocess and aggregate the data to match the granularity of your flight data (e.g., hourly or daily).
 
 
 ## Flight Features to Consider for Accurate Predictions
